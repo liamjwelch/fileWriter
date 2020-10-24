@@ -58,6 +58,20 @@ public class Student {
     
 	
 	
+
+    public Student(String name, String id, char grade) {
+        this.name = name;
+        this.id = id;
+        this.grade = grade;
+    }
+    
+    
+    public Student(){
+        name = "John";
+        id = "12234234";
+        grade = 'a';
+    }
+	
     
 
 }
